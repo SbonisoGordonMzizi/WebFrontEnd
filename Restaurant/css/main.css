@@ -6,7 +6,8 @@ body{
     background-image: url(../images/background-adare-restaurant.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    
 }
 
 .container{
@@ -68,4 +69,7 @@ footer{
     padding-bottom: 10px;
     font: 1em sans-serif;
     color: rgb(255, 250, 250);
+}
+.map{
+    background-color: brown;
 }

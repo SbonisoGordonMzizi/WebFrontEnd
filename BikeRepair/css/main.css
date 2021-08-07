@@ -1,0 +1,90 @@
+body{
+    background-image: linear-gradient(rgba(58, 23, 23, 0.863),rgb(83, 83, 11),rgb(73, 76, 105));
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+}
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width:1024px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main{
+   
+    min-height: 350px;
+    width:1024px;
+    display: flex;
+    align-items: center;
+}
+.cards{
+    min-height: 250px;
+    width:1024px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+.card1{
+    background-image: url(../images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width:33.0%;
+    min-height: 240px;
+   
+}
+.card2{
+    background-image: url(../images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: center;
+    width:33.0%;
+    min-height: 240px;
+   
+}
+.card3{
+   background-image: url(../images/image-background-card3.jpg);
+   background-size: cover;
+   background-position:center;
+   width:33.0%;
+   min-height: 240px;
+   
+}
+
+.herobox1{
+    flex: 3;
+}
+.herobox1 p{
+    padding-top: 1rem;
+}
+.herobox2{
+    flex:1;
+} 
+
+h1{
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 2rem;
+}
+p{
+    line-height: 1.5rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.card1 p, .card2 p, .card3 p{
+    font-weight: 400;
+    margin: 1rem 2rem;
+}

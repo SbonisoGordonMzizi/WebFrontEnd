@@ -1,0 +1,21 @@
+.navbutton{
+    background-color: aqua;
+    padding: 11px 25px;
+    border: 1px solid red;
+    width: 100px;
+    display:inline-block;
+    text-align: center;
+    position: relative;
+    
+}
+.dropdown{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    margin-top: 0.90rem;
+    margin-left: -1.65rem;
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}

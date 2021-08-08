@@ -1,8 +1,18 @@
+html{
+    background-image: linear-gradient(rgba(58, 23, 23, 0.863),rgba(83, 83, 11, 0.788),rgb(73, 76, 105));
+}
 body{
-    background-image: linear-gradient(rgba(58, 23, 23, 0.863),rgb(83, 83, 11),rgb(73, 76, 105));
+    background-image: url(../images/image-lion-background.png);
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 .container{
     width: 1024px;
@@ -17,6 +27,7 @@ header{
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 0.1rem solid rgb(245, 235, 235);
 }
 main{
    
@@ -31,6 +42,7 @@ main{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    
 
 
 }
@@ -40,6 +52,8 @@ main{
     background-position: bottom;
     width:33.0%;
     min-height: 240px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
    
 }
 .card2{
@@ -48,7 +62,8 @@ main{
     background-position: center;
     width:33.0%;
     min-height: 240px;
-   
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
 }
 .card3{
    background-image: url(../images/image-background-card3.jpg);
@@ -56,6 +71,8 @@ main{
    background-position:center;
    width:33.0%;
    min-height: 240px;
+   border-radius: 30px;
+   box-shadow: 5px 5px 5px black;
    
 }
 
@@ -73,9 +90,11 @@ h1{
     font-size: 4rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 2rem;
+    text-shadow: 5px 5px 5px black;
 }
 p{
     line-height: 1.5rem;
+    text-shadow: 5px 5px 5px black;
 }
 h2{
     font-size: 2rem;
@@ -83,8 +102,66 @@ h2{
     font-weight: 1000;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    text-shadow: 5px 5px 5px black;
 }
 .card1 p, .card2 p, .card3 p{
     font-weight: 400;
     margin: 1rem 2rem;
+    text-shadow: 5px 5px 5px black;
+}
+nav a{
+    margin-left: 0.1rem;
+    background-color: rgba(58, 23, 23, 0.863);
+    border: 0.5rem solid  rgba(0, 0, 0, 0);
+    padding: 1px 2px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+nav a:hover{
+    background-color: rgb(83, 83, 11);;
+
+}
+.herobox2 img{
+    border-radius: 1000px;
+}
+.herobox1 a{
+    margin-left: 0.1rem;
+    margin-top: 1rem;
+    background-color: rgb(83, 83, 11);
+    border: 0.5rem solid rgba(255, 255, 255, 0.048);
+    padding: 1px 2px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.herobox1 a:hover{
+    background-color: rgba(58, 23, 23, 0.863);
+}
+.testimonials{
+    display:flex;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tbox{
+   width: 49%;
+   padding: 30px;
+   border: 0.1rem solid rgba(73, 76, 105, 0.185);
+   box-sizing: border-box;
+   margin-top: 0.2rem;
+
+}
+.testimonroot{
+    text-align: center;
+}
+
+h2.testimon{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-shadow: 5px 5px 5px black;
 }
